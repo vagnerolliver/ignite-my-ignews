@@ -1,0 +1,40 @@
+.postContainer { 
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.post {
+  max-width: 730px;
+  margin: 5rem 0 auto;
+
+  h1 {
+    font-size: 3.25rem;
+    line-height: 3.5rem;
+    font-weight: 900;
+  }
+
+  time { 
+    color: var(--gray-300);
+    display: block;
+    font-size: 1rem;
+    margin-top: 1.25rem;
+  }
+}
+
+.postContent { 
+  margin-top: 2rem;
+
+  p, ul {
+    margin: 1.5rem 0;
+  }
+
+  ul {
+    padding-left: 1.25rem;
+
+    li {
+      margin: 1rem 0;
+      padding-left: 1rem;
+    }
+  }
+}
